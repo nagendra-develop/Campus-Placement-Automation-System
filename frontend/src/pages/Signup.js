@@ -16,11 +16,11 @@ export default function Signup() {
     try {
       const res = await API.post("/auth/signup", form);
 
-      // backend se user + token dono aane chahiye
+      // backend 
       localStorage.setItem("token", res.data.token);
       localStorage.setItem("user", JSON.stringify(res.data.user));
 
-      // role ke hisaab se redirect
+      // role redirect
       if (res.data.user.role === "admin") {
         nav("/admin");
       } else {
