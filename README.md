@@ -72,29 +72,29 @@ Frontend will run on: http://localhost:3000
 
 #🔑 Features
 
-Student
+-- **Student**
 
-Signup / Login
+-- Signup / Login
 
-Browse jobs
+-- Browse jobs
 
-Apply for jobs
+-- Apply for jobs
 
-Admin
+-- **Admin**
 
-Post new jobs
+-- Post new jobs
 
-Manage student applications
+-- Manage student applications
 
-View placement stats
+-- View placement stats
 
-Security
+-- **Security**
 
-JWT-based authentication
+-- JWT-based authentication
 
-Passwords encrypted with bcrypt
+-- Passwords encrypted with bcrypt
 
 
 #📜 License
 
-This project is for educational purposes.
+--- This project is for educational purposes. ---
